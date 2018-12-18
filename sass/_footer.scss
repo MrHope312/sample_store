@@ -1,26 +1,37 @@
 .footer{
+    height:18rem;
     background-color: $color-secondary-dark;
-} 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+    color:white;
+
+  &__items{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top:4rem;
+  }
+
+  
+  &__list{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  &__item{
+    list-style:none;
+  }
+  &__end{
+    margin-right:3rem;
+  }
+
+}
+p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ .flogo{
+   height:7rem;
+ }
  
  
  
@@ -30,6 +41,7 @@
  
  .custom-select {
     position: relative;
+    padding-left:4rem;
   }
   
   .custom-select select {
