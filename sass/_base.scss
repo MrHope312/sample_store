@@ -1,0 +1,27 @@
+//COLOR VARIABLES
+$color-primary:#21B7EC;
+$color-primary-dark:#243C84;
+$color-secondary:#D4D4D4;
+$color-secondary-dark:#5C5C64;
+//FONT VARIABLE
+$font-primary:'Roboto', sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-secondary-dark;
+    font-weight: 300;
+    line-height: 1.6;
+}
