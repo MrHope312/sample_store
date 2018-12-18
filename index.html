@@ -1,40 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./img/headerLogo.png" type="image/x-icon">
     <title>Sample Store</title>
 </head>
+
 <body>
-    <div class="container">
+    <section class="container">
         <header class="header">
             <img src="./img/headerLogo.png" alt="" class="logo">
             <nav class="user-nav">
-                <div class="cart-nav__icon-box">
-                    <svg class="cart-nav__icon">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
                         <use xlink:href="img/sprite.svg#icon-shopping-cart"></use>
                     </svg>
+                    <span class="user-nav__notification">1</span>
                 </div>
                 <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon">
-                            <use xlink:href="img/sprite.svg#icon-user"></use>
-                        </svg>
-                    </div>
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                    </svg>
+                </div>
             </nav>
         </header>
         <div class="content">
             <nav class="sidebar">
-                Navigation
+                <h1>CATEGORIES</h1>
+                <label class="radio">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    Fruits</label>
+                <label class="radio">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    Vegetables</label>
+                <label class="radio">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    Groceries</label>
+                <label class="radio">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    Meat</label>
             </nav>
             <main class="product-cards">
                 Cards
             </main>
         </div>
-    </div>
-    
+    </section>
+    <footer class="footer">
+        <nav class="nav-footer">
+            <div class="footer-items">
+                <div class="custom-select" style="width:200px;">
+                    <select>
+                        <option value="0">India Change</option>
+                        <option value="1">USA Change</option>
+                    </select>
+                </div>
+                <div class="mid-items">
+                    <ul class="footer__list">
+                        <li class="footer__item"><svg>
+                                <use xlink:href="img/sprite.svg#icon-facebook-with-circle"></use>
+                                </use>
+                            </svg></li>
+                        <li class="footer__item"><svg>
+                                <use xlink:href="img/sprite.svg#icon-twitter-with-circle"></use>
+                                </use>
+                            </svg></li>
+                        <li class="footer__item"><svg>
+                                <use xlink:href="img/sprite.svg#icon-google-with-circle"></use>
+                                </use>
+                            </svg></li>
+                        <li class="footer__item"><svg>
+                                <use xlink:href="img/sprite.svg#icon-instagram-with-circle"></use>
+                                </use>
+                            </svg></li>
+                    </ul>
+                </div>
+                <div class="end">
+                    <img src="./img/footerLogo.png" alt="#">
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <script src="js/dropdown.js"></script>
 </body>
 </html>

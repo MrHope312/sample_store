@@ -1,4 +1,73 @@
-.sidebar{
+.sidebar {
     background-color: $color-secondary;
     flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+.radio {
+    display: block;
+    position: relative;
+    padding-left: 2.7rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    user-select: none;
+  }
+  .radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #fff;
+    border-radius: 20%;
+  }
+
+ 
+.radio:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  .radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .radio input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .radio .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+h1 { 
+    position: relative;
+    padding-left: 2.7rem;
+    margin-top: 1rem;    
+    margin-bottom: 1rem;
+}
+label{
+    position: relative;
+    left: 3rem;
 }
