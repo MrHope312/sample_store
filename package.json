@@ -1,0 +1,23 @@
+{
+  "name": "sample_store",
+  "version": "1.0.0",
+  "description": "Assignment for Alchi Design Studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHope312/sample_store.git"
+  },
+  "keywords": [
+    "sass",
+    "html"
+  ],
+  "author": "M SHREYAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrHope312/sample_store/issues"
+  },
+  "homepage": "https://github.com/MrHope312/sample_store#readme"
+}
