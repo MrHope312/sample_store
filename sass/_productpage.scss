@@ -1,7 +1,8 @@
 .p_desc{
+    width:50rem;
     margin:3rem;
+    margin-bottom:12rem;
     background-color: #fff;
-    box-shadow: 0 2rem 6rem rgba(0,0,0,0.1);
     border: 0.2rem solid rgba(0,0,0,0.1);
     border-radius: 0.5rem;
     &__desc{
@@ -10,13 +11,13 @@
         flex-direction: column;
         justify-content: center;
         align-content: space-around;
+        font-size:1.5rem;
+        padding: 1rem 2rem;
     }
     &__p{
         font-size:1.5rem;
         color:$color-primary;
-        position: relative;
-        left: 15rem;
-        transform:translate(-1rem);
+        margin: 1.5rem 0 0 20rem;
     }
     &__img{
          width:100%;
@@ -24,10 +25,66 @@
     &__q{
         font-size:1.5rem;
     }
+    &__r{
+        font-size:1.5rem;
+        color:$color-primary;
+        margin: -2.5rem 0 0 34rem;
+    }
+    &__quantity{
+        display:flex;
+        align-content: center;
+    }
+    &__input{
+        outline: none;
+        text-align: center;
+        width:4rem;
+        height:3rem;
+        border: 1px solid rgba(0,0,0,0.1);
+        margin: 1rem 2rem;
+    }
+    &__total{
+        font-weight:500;
+        font-size:1.5rem;
 
+    }
+    &__btn{
+        display:flex;
+        font-size:1.8rem;
+        flex-direction: row-reverse;
+    }
+    &__lbtn{
+        margin: 2rem 0 2rem 2rem;
+        height:3rem;
+        width :10rem;
+        text-decoration: none;
+        text-align:center;
+        background-color:#fff;
+        border-radius: 6%;
+        border: 1px solid rgba(0,0,0,0.1);
+        color:$color-secondary-dark;
+        box-shadow: 0 2rem 6rem rgba(0,0,0,0.1);
+    }
+    &__rbtn{
+        margin: 2rem 3rem 2rem 2rem;
+        height:3rem;
+        width :10rem;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 6%;
+        background-color: #FCBB04;
+        text-decoration: none;
+        text-align:center;
+        color:#fff;
+        box-shadow: 0 2rem 6rem rgba(0,0,0,0.2);
+    }
+}
+.add_icon{
+    height: 2.25rem;
+    width: 2.25rem;
+    fill:  $color-secondary-dark;
 }
 .p_desc_para{
-    width:100%;
-
+    width:100rem;
+    padding:3rem;
+    text-align: justify;
 }
 
