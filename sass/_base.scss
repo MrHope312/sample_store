@@ -3,13 +3,14 @@ $color-primary:#21B7EC;
 $color-primary-dark:#243C84;
 $color-secondary:#D4D4D4;
 $color-secondary-dark:#3C3C3C;
-$color-border: 0.5rem rgba(0,0,0,0.3);
+$color-border: 0.5rem rgba(0, 0, 0, 0.3);
 //FONT VARIABLE
-$font-primary:'Roboto', sans-serif;
+$font-primary:'Roboto',
+sans-serif;
 //BREAK POINT
-$bp-largest:75em;//1200px
+$bp-largest:75em; //1200px
 $bp-medium: 29.375em; //470px
-$bp-text: 46.375em;//742px
+$bp-text: 46.375em; //742px
 
 *,
 *::before,
@@ -22,14 +23,15 @@ $bp-text: 46.375em;//742px
 html {
     box-sizing: border-box;
     font-size: 62.5%; //10px/16px = 62.5% -> 1rem = 10px
-    @media only screen and (max-width: $bp-medium){
-        font-size:50%;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 50%;
     }
 }
 
 body {
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
     font-family: $font-primary;
     color: $color-secondary-dark;
     font-weight: 300;

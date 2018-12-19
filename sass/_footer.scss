@@ -1,84 +1,93 @@
-.footer{
-    width:100vw;
-    height:21rem;
-    background-color: $color-secondary-dark;
-    color:white;
-    font-size:2.5rem;
+.footer {
+  width: 100vw;
+  height: 21rem;
+  background-color: $color-secondary-dark;
+  color: white;
+  font-size: 2.5rem;
 
-  &__items{
+  &__items {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding-top:4rem;
-    @media only screen and (max-width: $bp-medium){
+    padding-top: 4rem;
+
+    @media only screen and (max-width: $bp-medium) {
       flex-direction: column;
       justify-content: center;
       align-content: space-around;
-      padding:1rem;
+      padding: 1rem;
     }
   }
 
-  &__list{
-    display:flex;
+  &__list {
+    display: flex;
     justify-content: space-around;
     align-content: center;
-    @media only screen and (max-width: $bp-medium){
+
+    @media only screen and (max-width: $bp-medium) {
       flex-direction: row;
       justify-content: center;
     }
   }
-  &__item{
-    list-style:none;
+
+  &__item {
+    list-style: none;
   }
-  &__end{
-    margin-right:3rem;
+
+  &__end {
+    margin-right: 3rem;
   }
-  
+
 
 }
-.pfoot{
+
+.pfoot {
   text-align: center;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
- .flogo{
-   height:7rem;
-   @media only screen and (max-width: $bp-medium){
-    height:4rem;
-    margin-left:15rem;
-    }
+.flogo {
+  height: 7rem;
 
- }
+  @media only screen and (max-width: $bp-medium) {
+    height: 4rem;
+    margin-left: 15rem;
+  }
 
- .custom-select {
-   padding-left:4rem;
-   overflow: hidden;
- }
- .custom-select select{
+}
+
+.custom-select {
+  padding-left: 4rem;
+  overflow: hidden;
+}
+
+.custom-select select {
   margin-top: 1rem;
-  width:16rem;
-  height:3rem;
+  width: 16rem;
+  height: 3rem;
   border-radius: 5%;
   border: 0.1px solid #ccc;
   box-shadow: none;
   background-color: transparent;
   background-image: none;
-  color:#fff;
+  color: #fff;
   text-transform: uppercase;
-  text-align:center;
-  @media only screen and (max-width: $bp-medium){
-    width:50%;
-    margin-left:8rem;
-    }
- }
- .location_icon{
-  height: 2.25rem;
-  width: 2.25rem;
-  fill:  #fff;
-  margin-bottom:-4.5rem;
-  @media only screen and (max-width: $bp-medium){
-  margin-bottom:-0.3rem;
-  margin-right:-2.5rem;
+  text-align: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 50%;
+    margin-left: 8rem;
   }
 }
 
+.location_icon {
+  height: 2.25rem;
+  width: 2.25rem;
+  fill: #fff;
+  margin-bottom: -4.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: -0.3rem;
+    margin-right: -2.5rem;
+  }
+}

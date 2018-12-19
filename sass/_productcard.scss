@@ -1,46 +1,52 @@
-main{
+main {
     margin: 5rem;
-    display:grid;
+    display: grid;
     grid-column: auto;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 1.5rem;
 }
-.card{
+
+.card {
     background-color: #fff;
-    box-shadow: 0 2rem 6rem rgba(0,0,0,0.1);
-    border: 0.2rem solid rgba(0,0,0,0.1);
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.1);
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    width:300px;
-    height:380.5px;
-    &__img{
-        width:100%;
+    width: 300px;
+    height: 380.5px;
+
+    &__img {
+        width: 100%;
     }
-    &__desc{
+
+    &__desc {
         padding: 0.6rem 2rem;
-        background-color: rgba($color-secondary,0.2);
+        background-color: rgba($color-secondary, 0.2);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: space-around;
     }
-    &__heading{
+
+    &__heading {
         font-size: 1.5rem;
     }
-    &__price{
-        font-size:2.5rem;
-        color:$color-primary;
+
+    &__price {
+        font-size: 2.5rem;
+        color: $color-primary;
         position: relative;
         left: 14rem;
-        transform:translate(-1.5rem);
+        transform: translate(-1.5rem);
     }
-    &__anchor{
+
+    &__anchor {
         text-decoration: none;
-        color:$color-primary;
-        font-size:1.5rem;
+        color: $color-primary;
+        font-size: 1.5rem;
     }
-    &__aside{
-        display:flex;
+
+    &__aside {
+        display: flex;
         justify-items: center;
     }
 }
-
