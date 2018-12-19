@@ -1,6 +1,6 @@
 # sample_store
 Assignment for Alchi Design Studio</br>
-As Mentioned in the instructions the User Interface for the given Prototype is Developed.</br>
+As Mentioned in the instructions the User Interface for the given Prototype is developed.</br>
 ### Technolgies_used:</br>
 1. HTML5</br>
 2. SASS</br>
@@ -26,7 +26,7 @@ Mobile Responsive is assigned to 470px for mobile view when converted to em=29.3
 Webpage elements must be set for responsive at different Breakpoints.
 Use of SVG's ofter more.</br>
 ### Regards,</br>
-Thank you for this oppurtunity for having me work on this assignment and </br>I'm looking forward to Learn and forsee my career path with your studio.
+Thank you for this opportunity for having me work on this assignment and </br>I'm looking forward to Learn and foresee my career path with your studio.
 ### Contact for any queries
 M SHREYAS</br>
 Currently Pursuing Computer Science at</br>
