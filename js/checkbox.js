@@ -1,6 +1,6 @@
 function func()
         {
-            var chb = document.getElementsByClassName('cbs');
+            var chb = document.getElementsByClassName('chb');
             var card = document.getElementsByClassName('card');
           
             for(var i=0;i<=11;i++){
@@ -10,6 +10,7 @@ function func()
             {
               for(var i=0;i<=2;i++){
                 card[i].style.display='inline';}
+                
             }
             if(!chb[0].checked)
             {
