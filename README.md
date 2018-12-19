@@ -24,7 +24,7 @@ Webpage is developed Desktop-First Layout and testing is successful with proper 
 Mobile Responsive is assigned to 470px for mobile view when converted to em=29.375em and Successful implementation.
 ### Scope of Improvement</br>
 Webpage elements must be set for responsive at different Breakpoints.
-Use of SVG's ofter more.</br>
+Use of SVG's often more.</br>
 ### Regards,</br>
 Thank you for this opportunity for having me work on this assignment and </br>I'm looking forward to Learn and foresee my career path with your studio.
 ### Contact for any queries
