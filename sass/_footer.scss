@@ -13,7 +13,7 @@
   
   &__list{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
   }
   &__item{
@@ -26,17 +26,12 @@
 }
 .pfoot{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
  .flogo{
    height:7rem;
  }
- 
- 
- 
- 
- 
  
  
  .custom-select {
