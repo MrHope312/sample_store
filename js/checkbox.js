@@ -3,29 +3,29 @@ function func()
             var chb = document.getElementsByClassName('chb');
             var card = document.getElementsByClassName('card');
           
-            for(var i=0;i<=11;i++){
+            for(var i=0;i<=5;i++){
                 card[i].style.display='none';}
                  
             if(chb[0].checked)
             {
-              for(var i=0;i<=2;i++){
+              for(var i=0;i<=5;i++){
                 card[i].style.display='inline';}
                 
             }
             if(!chb[0].checked)
             {
-                for(var i=0;i<=2;i++){
+                for(var i=0;i<=5;i++){
                 card[i].style.display='none';}
             }
             
             if(chb[1].checked)
             {
-                for(var i=3;i<=5;i++){
+                for(var i=6;i<=12;i++){
                 card[i].style.display='inline';}
             }
             if(!chb[1].checked)
             {
-                for(var i=3;i<=5;i++){
+                for(var i=6;i<=12;i++){
                 card[i].style.display='none';}
             }
             
