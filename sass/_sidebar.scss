@@ -1,9 +1,11 @@
 .sidebar {
-    background-color: $color-secondary;
-    flex: 0 0 18%;
+    background-color: #fff;
+    flex: 0 0 20%;
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 8px 0px #888888;
 }
 .radio {
     display: block;
@@ -13,6 +15,7 @@
     cursor: pointer;
     font-size: 1.2rem;
     user-select: none;
+
   }
   .radio input {
     position: absolute;
@@ -20,6 +23,7 @@
     cursor: pointer;
     height: 0;
     width: 0;
+
   }
   .checkmark {
     position: absolute;
@@ -29,6 +33,7 @@
     width: 1.5rem;
     background-color: #fff;
     border-radius: 20%;
+    border: 0.1rem solid black;
   }
 
  

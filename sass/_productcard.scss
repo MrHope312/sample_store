@@ -11,12 +11,15 @@ main{
     box-shadow: 0 2rem 6rem rgba(0,0,0,0.1);
     border: 0.2rem solid rgba(0,0,0,0.1);
     border-radius: 0.5rem;
+    width:300px;
+    height:380px;
+
 
     &__img{
         width:100%;
     }
     &__desc{
-        padding: 1rem 2rem;
+        padding: 0.6rem 2rem;
         background-color: rgba($color-secondary,0.2);
         display: flex;
         flex-direction: column;
@@ -30,7 +33,7 @@ main{
         font-size:2.5rem;
         color:$color-primary;
         position: relative;
-        left: 15rem;
+        left: 14rem;
         transform:translate(-1.5rem);
     }
     &__anchor{
