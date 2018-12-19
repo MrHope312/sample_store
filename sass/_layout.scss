@@ -10,6 +10,7 @@
     min-height: calc(100vh - 70px);
     @media only screen and (max-width: $bp-medium){
         flex-direction: column;
+        overflow-y: hidden;
     }
 }
 .product-cards {
