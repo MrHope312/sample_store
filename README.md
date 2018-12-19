@@ -29,7 +29,7 @@ Use of SVG's ofter more.</br>
 Thank you for this opportunity for having me work on this assignment and </br>I'm looking forward to Learn and foresee my career path with your studio.
 ### Contact for any queries
 M SHREYAS</br>
-Currently Pursuing Computer Science at</br>
+Currently Pursuing Computer Science Engineeringat</br>
 Cambridge Institute of Technology, Bangalore-560036.</br>
 9964147460.</br>
 shreyasm312@gmail.com</br>
