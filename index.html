@@ -33,19 +33,19 @@
             <nav class="sidebar">
                 <h1>CATEGORIES</h1>
                 <label class="radio">
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" class="cbs" onclick="func();"/>
                     <span class="checkmark"></span>
                     Fruits</label>
                 <label class="radio">
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox"  class="cbs" onclick="func();"/>
                     <span class="checkmark"></span>
                     Vegetables</label>
                 <label class="radio">
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" class="cbs" onclick="func();"/>
                     <span class="checkmark"></span>
                     Groceries</label>
                 <label class="radio">
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox"  class="cbs" onclick="func();"/>
                     <span class="checkmark"></span>
                     Meat</label>
             </nav>
@@ -55,10 +55,10 @@
                         <img src="./img/apple.jpg" alt="#" class="card__img">
                     </div>
                     <div class="card__desc">
-                        <p class="card__heading">Farm Fresh Apple</p>
+                        <span class="card__heading">Farm Fresh Apple</span>
                         <div class="card__aside">
                             <a class="card__anchor" href="product.html">View Details</a>
-                            <p class="card__price">$1</p>
+                            <p class="card__price" id="currency13"></p><p class="card__price" id="var13">100</p>
                         </div>
                     </div>
                 </div>
@@ -67,10 +67,10 @@
                                 <img src="./img/banana.jpg" alt="#" class="card__img">
                             </div>
                             <div class="card__desc">
-                                <p class="card__heading">Farm Fresh Apple</p>
+                                <span class="card__heading">Farm Fresh Banana</span>
                                 <div class="card__aside">
                                     <a class="card__anchor" href="product.html">View Details</a>
-                                    <p class="card__price">$1</p>
+                                    <p class="card__price" id="currency14"></p><p class="card__price" id="var14">40</p>
                                 </div>
                             </div>
                 </div>
@@ -79,10 +79,10 @@
                                 <img src="./img/grape.jpg" alt="#" class="card__img">
                             </div>
                             <div class="card__desc">
-                                <p class="card__heading">Farm Fresh Apple</p>
+                                <span class="card__heading">Farm Fresh Grapes</span>
                                 <div class="card__aside">
                                     <a class="card__anchor" href="product.html">View Details</a>
-                                    <p class="card__price">$1</p>
+                                    <p class="card__price" id="currency15"></p><p class="card__price" id="var15">120</p>
                                 </div>
                             </div>
                 </div>
@@ -91,10 +91,10 @@
                                 <img src="./img/kiwi.jpg" alt="#" class="card__img">
                             </div>
                             <div class="card__desc">
-                                <p class="card__heading">Farm Fresh Apple</p>
+                                <span class="card__heading">Farm Fresh Kiwi</span>
                                 <div class="card__aside">
                                     <a class="card__anchor" href="product.html">View Details</a>
-                                    <p class="card__price">$1</p>
+                                    <p class="card__price" id="currency16"></p><p class="card__price" id="var16">200</p>
                                 </div>
                             </div>
                 </div>
@@ -103,10 +103,10 @@
                                 <img src="./img/orange.jpg" alt="#" class="card__img">
                             </div>
                             <div class="card__desc">
-                                <p class="card__heading">Farm Fresh Apple</p>
+                                <span class="card__heading">Farm Fresh Orange</span>
                                 <div class="card__aside">
                                     <a class="card__anchor" href="product.html">View Details</a>
-                                    <p class="card__price">$1</p>
+                                    <p class="card__price" id="currency17"></p><p class="card__price" id="var17">50</p>
                                 </div>
                             </div>
                 </div>
@@ -115,10 +115,10 @@
                                 <img src="./img/pomegranate.jpg" alt="#" class="card__img">
                             </div>
                             <div class="card__desc">
-                                <p class="card__heading">Farm Fresh Apple</p>
+                                <span class="card__heading">Farm Fresh Pomegranate</span>
                                 <div class="card__aside">
                                     <a class="card__anchor" href="product.html">View Details</a>
-                                    <p class="card__price">$1</p>
+                                    <p class="card__price" id="currency18"></p><p class="card__price" id="var18">80</p>
                                 </div>
                             </div>
                 </div>
@@ -128,9 +128,9 @@
     <footer class="footer">
         <div class="footer__items">
             <div class="custom-select" style="width:200px;">
-                <select>
-                    <option value="0">India Change</option>
-                    <option value="1">USA Change</option>
+                <select id="opt" onclick="func1();">
+                    <option value="India">India &nbsp; Change</option>
+                    <option value="USA">USA &nbsp;Change</option>
                 </select>
             </div>
             <div class="footer__mid-items">
@@ -161,6 +161,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/dropdown.js"></script>
+    <script src="js/currency_dropdown.js"></script>
+    <script src="checkbox.js"></script>
 </body>
 </html>
