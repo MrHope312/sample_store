@@ -27,8 +27,11 @@ html {
 }
 
 body {
+    width:100vw;
+    height:100vh;
     font-family: $font-primary;
     color: $color-secondary-dark;
     font-weight: 300;
     line-height: 1.6;
+    overflow-x:hidden;
 }
