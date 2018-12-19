@@ -7,8 +7,9 @@ $color-border: 0.5rem rgba(0,0,0,0.3);
 //FONT VARIABLE
 $font-primary:'Roboto', sans-serif;
 //Breakpoint
-$bp-largest:75em;
-$bp-medium: 25.875em; //414px
+$bp-largest:75em;//1200px
+$bp-medium: 29.375em; //414px
+$bp-text: 46.375em;//742px
 
 *,
 *::before,
@@ -33,5 +34,4 @@ body {
     color: $color-secondary-dark;
     font-weight: 300;
     line-height: 1.6;
-    overflow-x:hidden;
 }
