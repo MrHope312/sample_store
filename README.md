@@ -1,5 +1,5 @@
 # sample_store
-Assignment for Alchi Design Studio</br>
+</br>
 As Mentioned in the instructions the User Interface for the given Prototype is developed.</br>
 ### Technolgies_used:</br>
 1. HTML5</br>
@@ -25,8 +25,7 @@ Mobile Responsive is assigned to 470px for mobile view when converted to em=29.3
 ### Scope of Improvement</br>
 Webpage elements must be set for responsive at different Breakpoints.
 Use of SVG's often more.</br>
-### Regards,</br>
-Thank you for this opportunity for having me work on this assignment and </br>I'm looking forward to Learn and foresee my career path with your studio.
+
 ### Contact for any queries
 M SHREYAS</br>
 Currently Pursuing Computer Science Engineeringat</br>
