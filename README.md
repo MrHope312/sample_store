@@ -1,5 +1,5 @@
 # sample_store
-</br>
+
 As Mentioned in the instructions the User Interface for the given Prototype is developed.</br>
 ### Technolgies_used:</br>
 1. HTML5</br>
